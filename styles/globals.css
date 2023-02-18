@@ -1,0 +1,605 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer-model-9 .social_icons_bg ul li a {
+  color: #ffffff;
+}
+.footer-model-9 .social_icons_bg ul li a:hover {
+  color: #c00a27;
+}
+.footer-model-9 .site-footer__links li a:hover,
+.footer-model-9 .mail-address:hover,
+.footer-model-9 .link a:hover {
+  color: #c00a27 !important;
+}
+.footer-model-9 .footer-bottom .footer-bottom__menu ul li a:hover {
+  color: red;
+}
+.footer-model-9 .copyright a {
+  color: #ffffff;
+}
+.footer-model-9 .copyright a:hover {
+  color: #ffffff;
+}
+.footer-model-9 h5 {
+  color: #ffffff;
+}
+.footer-model-9 .site-footer .grid-uniform {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+.site-footer {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("//cdn.shopify.com/s/files/1/0436/7371/4851/files/footer_1.jpg?v=1636108887");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.footer-model-9 .site-footer:before {
+  content: "";
+  position: absolute;
+  background-image: url("//cdn.shopify.com/s/files/1/0436/7371/4851/files/divider_1_1920X_1920X_ea5ea157-6ea7-4862-8b4a-5024ff6a8e4e_1920X.png?v=1636109889");
+  background-repeat: no-repeat;
+  left: 0;
+  width: 1920px;
+  height: 160px;
+  top: -120px;
+  bottom: auto;
+}
+.newsletter-block-type-3 form input[type="email"] {
+  background: #e4e4e4;
+  color: #000000;
+  border-radius: 5%;
+}
+.newsletter-block-type-3 {
+  background-image: url("//cdn.shopify.com/s/files/1/0436/7371/4851/files/footer_1_1920X.png?v=1637137568");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 400px;
+  bottom: 0;
+}
+.newsletter-block-type-3 form input[type="email"]:focus {
+  border-bottom: 1px solid rgba(228, 228, 228, 0.5);
+  background-color: rgba(228, 228, 228, 0.5);
+  border-radius: 15%;
+}
+.newsletter-block-type-3 form input[type="email"]::-webkit-input-placeholder {
+  color: #000000;
+  font-style: italic;
+  font-weight: bold;
+}
+.newsletter-block-type-3 form input[type="email"]:-moz-placeholder {
+  color: #000000;
+  font-style: italic;
+  font-weight: bold;
+}
+.newsletter-block-type-3 form input[type="email"]::-moz-placeholder {
+  color: #000000;
+  font-style: italic;
+  font-weight: bold;
+}
+.newsletter-block-type-3 form input[type="email"]:-ms-input-placeholder {
+  color: #000000;
+  font-style: italic;
+  font-weight: bold;
+}
+.newsletter-block-type-3 form input[type="email"] {
+  color: #000000;
+  font-style: italic;
+  font-weight: bold;
+}
+.category-listing-type-1 .category-listing_inner {
+  border: 1px solid transparent;
+}
+.category-listing-type-1 .category-listing_inner:hover {
+  box-shadow: 0px 0px 25px 5px #93051c;
+}
+.category-listing-type-1 .category-listing_inner:hover .category_text {
+  background: #ffffff !important;
+}
+.category-listing-type-1 .category-listing_inner:hover .category_text h5 {
+  color: #000000 !important;
+}
+.category-listing-type-1 .category-listing_inner:hover .category_text p {
+  color: #3a3a3a !important;
+}
+.category-listing-type-1 .category-listing_inner p {
+  margin: 0;
+}
+.category-listing-type-1 .category-listing_inner h5 {
+  margin-bottom: 10px;
+}
+.category-listing-type-1-inner:before,
+.category-listing-type-1-inner:after {
+  background-image: url("//cdn.shopify.com/s/files/1/0436/7371/4851/files/divider_1_1920X_1920X_ea5ea157-6ea7-4862-8b4a-5024ff6a8e4e_1920X.png?v=1636109889");
+  background-repeat: no-repeat;
+}
+.go {
+  width: 55px;
+  height: 55px;
+  position: fixed;
+  z-index: 1000;
+  margin-right: 30px;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.go:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.34),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+  zoom: 110%;
+}
+/* <!-- second slider -->  */
+.carousel {
+  padding: 0.3em 0.3em 0;
+  background: rgb(240, 240, 240);
+  text-align: center;
+  position: relative;
+  margin-bottom: 0.3em;
+  padding-top: 56.25%;
+}
+.carousel iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.carousel span {
+  display: inline-block;
+  word-spacing: 1em;
+  overflow: auto;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+.carousel a {
+  position: relative;
+  display: inline-block;
+  max-width: 120px;
+  width: 25%;
+  border: 1px solid blue;
+  opacity: 0.7;
+  text-decoration: none;
+}
+.carousel a:visited,
+.carousel a:nth-of-type(1) {
+  border-color: #555;
+}
+.carousel a:hover {
+  opacity: 1;
+}
+.carousel a:not(:active):focus {
+  pointer-events: none;
+}
+.carousel a::before {
+  content: "";
+  position: absolute;
+  top: 0em;
+  right: 0em;
+  bottom: 0em;
+  left: 0em;
+  background: rgba(0, 0, 1, 0.1);
+  transition: background 0s 9999999s;
+}
+.carousel a:nth-of-type(1)::before {
+  background: rgba(255, 255, 254, 0.7);
+}
+.carousel span:active a::before {
+  background: rgba(0, 0, 0, 0);
+  transition: background 0s;
+}
+.carousel span:active a:active::before {
+  background: rgba(255, 255, 255, 0.7);
+  transition: background 0s;
+}
+.carousel img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+@keyframes slideIn {
+  from {
+    filter: blur(15px);
+  }
+  to {
+    filter: blur(0);
+  }
+}
+@keyframes slideOut {
+  from {
+    filter: blur(0);
+  }
+  to {
+    filter: blur(15px);
+  }
+}
+.apnecardsdiv {
+  margin-top: 250px;
+}
+.wide-banner-type-5-content a.btn {
+  color: #ffffff;
+  background: #c00a27;
+  border: 2px solid #c00a27;
+}
+.wide-banner-type-5-content a.btn:hover {
+  border: 2px solid #93051c;
+  background-color: #93051c;
+  color: #ffffff;
+}
+.wide-banner-type-5-block {
+  background-image: url("//cdn.shopify.com/s/files/1/0436/7371/4851/files/1920-850_1_1920X.jpg?v=1636974691");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.wide-banner-type-5 .wide-banner-type-5-block:after {
+  content: "";
+  position: absolute;
+  background-image: url("//cdn.shopify.com/s/files/1/0436/7371/4851/files/divider_1_1920X_1920X_ea5ea157-6ea7-4862-8b4a-5024ff6a8e4e_1920X.png?v=1636109889");
+  background-repeat: no-repeat;
+  left: 0;
+  width: 1920px;
+  height: 180px;
+  top: auto;
+  bottom: -120px;
+}
+.wide-banner-type-5 .wide-banner-type-5-block:before {
+  content: "";
+  position: absolute;
+  background-image: url("//cdn.shopify.com/s/files/1/0436/7371/4851/files/divider_1_1920X_1920X_ea5ea157-6ea7-4862-8b4a-5024ff6a8e4e_1920X.png?v=1636109889");
+  background-repeat: no-repeat;
+  left: 0;
+  width: 1920px;
+  height: 180px;
+  top: -120px;
+  bottom: auto;
+}
+
+#RabiulAwal,
+#Desserts,
+#Dawat,
+#GiftADawat,
+#Sadqa,
+#Events,
+#Reception,
+#Mehndi,
+#Muharram,
+#buyNow {
+  width: 100%;
+  height: 900px;
+  top: 20px;
+  bottom: 20px;
+}
+#backRabiulAwal,
+#backMuharram,
+#backDesserts,
+#backDawat,
+#backGiftADawat,
+#backSadqa,
+#backEvents,
+#backReception,
+#backMehndi {
+  width: 100%;
+  height: 850px;
+  top: 20px;
+  bottom: 20px;
+}
+#backRabiulAwal {
+  background-image: url("https://www.biseworld.com/wp-content/uploads/2014/01/Jashne-Eid-Milad-ul-Nabi-Islamic-Sms-2014.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#backMuharram {
+  background-image: url("https://awampk.com/wp-content/uploads/2016/10/wallpaper-10-muharram.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+#backDesserts {
+  background-image: url("https://i.pinimg.com/originals/65/0a/64/650a64c1f42d5f006af50c3c88408f9c.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#backDawat {
+  background-image: url("https://image-tc.galaxy.tf/wijpeg-1tke031lfa2usksgy9biuamac/dsc-0247_standard.jpg?crop=46%2C0%2C708%2C531");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#backGiftADawat {
+  background-image: url("https://i.ytimg.com/vi/PzpcSMTPCkU/maxresdefault.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#backSadqa {
+  background-image: url("https://gmcorg.com/wp-content/uploads/2021/07/Qurbani-meat-01.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#backEvents {
+  background-image: url("https://wallpapercave.com/wp/wp2349395.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#backReception {
+  background-image: url("https://i0.wp.com/bookirea.com/blog/wp-content/uploads/2019/05/7-1.png?fit=630%2C315&ssl=1");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#backMehndi {
+  background-image: url("https://www.officialroyalwedding2011.org/wp-content/uploads/2019/10/Henna-768x499.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#RabiulAwal {
+  background-color: greenyellow;
+}
+#Muharram {
+  background-color: rgb(63, 39, 62);
+}
+#Desserts {
+  background-color: rgb(201, 201, 16);
+}
+#Dawat {
+  background-color: rgb(10, 199, 213);
+}
+#GiftADawat {
+  background-color: rgb(149, 33, 216);
+}
+#Sadqa {
+  background-color: rgb(66, 105, 212);
+}
+#Events {
+  background-color: rgb(255, 47, 158);
+}
+#Reception {
+  background-color: rgb(255, 127, 47);
+}
+#Mehndi {
+  background-color: rgb(33, 90, 35);
+}
+#buyNow {
+background-color: darkkhaki;
+}
+#crecard{
+  background-image: url('https://akm-img-a-in.tosshub.com/businesstoday/images/story/202205/bnpl-sixteen_nine.jpg?size=948:533');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+}
+#createaccount{
+  background-image: url('https://www.shift4shop.com/2015/images/buynow/buy-button.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+::selection{
+  color: #93051c;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: algerian;
+}
+
+
+
+
+
+.login-box {
+  position: absolute;
+  /* top: 50%;
+  left: 50%; */
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+.login-box a:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
+
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
+.login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+.login-box a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+.login-box a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+.login-box a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* *************************************************************----------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+#panagrid {
+  height: 800px;
+}
+
+#hello {
+  background-color: chartreuse;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+}
+
+
+body {
+  width: 100%;
+  height: 100vh;
+}
